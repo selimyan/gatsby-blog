@@ -5,6 +5,9 @@ date: "2022-7-7"
 
 This is an important date!
 
+![IceCream](./thai.jpeg)
+
+
 ## Topics Covered
 
 1. Prego
