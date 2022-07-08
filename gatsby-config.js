@@ -10,6 +10,7 @@ module.exports = {
     author: 'This shall remain unknown',
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-contentful',
       options: {

@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 
+import Head from '../components/head'
 import Layout from '../components/layout'
 
 export const query = graphql`
@@ -46,6 +47,7 @@ const Blog = (props) => {
 
   return (
     <Layout>
+      <Head title={title} />
       <h1>{title}</h1>
       <p>{publishedDate}</p>
       {documentToReactComponents(parsedBody, options)}
